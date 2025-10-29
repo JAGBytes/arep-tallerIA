@@ -1,0 +1,89 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# Archivos de configuración de entornos
+# Ignora todos los archivos .env dentro del repo
+*.env
+
+# Archivos de dependencias
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de compilación / distribución
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de logs y caché
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.tmp
+*.temp
+
+# Archivos de test y cobertura
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Notebooks y datos temporales
+.ipynb_checkpoints/
+*.ipynb_meta
+*.csv
+*.tsv
+*.sqlite3
+*.db
+*.bak
+
+# Documentación generada
+_site/
+docs/_build/
+build/
+target/
+
+# Archivos de configuración de Docker (si los hay)
+*.pid
+*.seed
+*.pid.lock
